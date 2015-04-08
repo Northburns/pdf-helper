@@ -124,9 +124,7 @@ public class RemoveAllImages {
 			FileOutputStream targetFile = new FileOutputStream(_targetFile);
 			document.save(targetFile);
 			targetFile.close();
-
-			// "D:\\Users\\jarvieskolaak\\Desktop\\temporary_personal\\13thAge\\13th-age-character-sheet-fillable_NoImages.pdf");
-
+			
 			ObjectOutputStream out = new ObjectOutputStream(
 					new FileOutputStream(processedPagesFileName));
 			out.writeObject(processedPages);

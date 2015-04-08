@@ -50,13 +50,10 @@ public class ImageAsker {
 		}
 		return null;
 	}
-
-	// *** your image path will be different *****
-	private static final String IMG_PATH = "D:\\Users\\jarvieskolaak\\Desktop\\temporary_personal\\vakuutus_terveys_kuitti.png";
-
+	
 	public static void main(String[] args) {
 		try {
-			BufferedImage img = ImageIO.read(new File(IMG_PATH));
+			BufferedImage img = ImageIO.read(new File(args[0]));
 			Image rimg = img.getScaledInstance(50, 500,
 					BufferedImage.SCALE_FAST);
 			ImageIcon icon = new ImageIcon(rimg);
