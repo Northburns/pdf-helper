@@ -22,7 +22,7 @@ Then the tool asks how often to save the results. This maybe useful in volatile 
 
 The tool will ask of every image it comes across if you want to remove or retain it in the document. The preview panel does its best to show the image. If ever in doubt, retain.
 
-Do note that the tool will use __a lot__ of memory! Please provide a large number for the parameter _-Xmx_!
+Do note that the tool will use __a lot__ of memory! Please provide a large number for the parameter _-Xmx_! It _might_ be leaking memory.
 
 Also an __important__ note: There is no error logging, other than to standard output stream. That means that unless running from the commandline, you won't know immediately if the tool is working really hard _or_ just crashed.
 
