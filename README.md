@@ -1,5 +1,5 @@
 # pdf-helper
-A small tool hacked together to help with pdfs, mainly concerning printing.
+A small tool hacked together to help with pdfs, mainly concerning printing. Seriously, don't expect a polished quality project. Use at your own risk.
 
 # Mission Statement
 I had to print a pdf without background images. The author didn't utilize layers in the file, so I had to remove certain images from the file myself.
